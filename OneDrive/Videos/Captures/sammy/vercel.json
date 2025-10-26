@@ -26,9 +26,11 @@
   ],
   "builds": [
     {
-      "src": "package.json",
-      "use": "@vercel/node",
-      "config": { "includeFiles": ["dist/**"] }
+      "src": "vercel-build.sh",
+      "use": "@vercel/static-build",
+      "config": { 
+        "distDir": "dist"
+      }
     }
   ]
 }
