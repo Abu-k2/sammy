@@ -43,6 +43,7 @@ const About: React.FC = () => {
               whileInView={{ scale: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true, margin: "-100px" }}
+              loading="lazy"
             />
           </motion.div>
 

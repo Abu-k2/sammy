@@ -12,7 +12,12 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => (
     transition={{ duration: 0.5 }}
   >
     <div className="relative overflow-hidden">
-      <img src={project.imageUrl} alt={project.name} className="w-full h-72 object-cover transition-transform duration-300 group-hover:scale-110" />
+      <img 
+        src={project.imageUrl} 
+        alt={project.name} 
+        className="w-full h-72 object-cover transition-transform duration-300 group-hover:scale-110"
+        loading="lazy"
+      />
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
     </div>
     <div className="absolute bottom-0 left-0 p-6 text-white w-full">

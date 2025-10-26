@@ -8,12 +8,12 @@ const slides = [
     subtext: "Crafting the Future of Construction and Design"
   },
   {
-    image: "/images/hero2.jpg",
+    image: "/images/hero2-optimized.jpg",
     headline: "Excellence in Structural Engineering",
     subtext: "Strength, Safety, and Precision in Every Project"
   },
   {
-    image: "/images/hero3.jpg",
+    image: "/images/hero3-optimized.jpg",
     headline: "From Concept to Completion",
     subtext: "Your Vision, Expertly Built"
   }

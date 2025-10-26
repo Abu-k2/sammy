@@ -24,7 +24,7 @@ export const PROJECTS: Project[] = [
     year: "1 year ago",
     workDone: "Full Construction & Interior Finishing",
     category: ProjectCategory.RESIDENTIAL,
-    imageUrl: "/images/riverside home.jpeg",
+    imageUrl: "/images/riverside-home.jpeg",
   },
   {
     name: "Hilltop Estate",
@@ -64,11 +64,11 @@ export const PROJECTS: Project[] = [
 
 export const GALLERY_IMAGES = [
   "/images/hero1.jpg",
-  "/images/hero2.jpg",
-  "/images/hero3.jpg",
+  "/images/hero2-optimized.jpg",
+  "/images/hero3-optimized.jpg",
   "/images/OBANGE.jpg",
   "/images/morden.jpeg",
-  "/images/riverside home.jpeg",
+  "/images/riverside-home.jpeg",
   "/images/lakeside.jpg",
   "/images/city.jpg",
 ];
@@ -111,7 +111,7 @@ export const TESTIMONIALS = [
     quote: "Working with Sammy was a seamless experience. His structural designs are not only safe and robust but also innovative. He's a true professional who delivers on his promises.",
     name: "John Smith",
     title: "Homeowner, Modern Villa",
-    avatarUrl: "/images/complex-aerial-view-city.jpg",
+    avatarUrl: "/images/complex-aerial-view-city-optimized.jpg",
   },
   {
     quote: "From the initial consultation to the final inspection, Sammy provided invaluable guidance. His supervision ensured our community project was completed on time and to the highest standards.",

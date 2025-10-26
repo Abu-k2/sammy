@@ -88,6 +88,7 @@ const Testimonials: React.FC = () => {
                     src={TESTIMONIALS[currentIndex].avatarUrl} 
                     alt={TESTIMONIALS[currentIndex].name} 
                     className="w-24 h-24 rounded-full object-cover border-4 border-green-100 shadow-lg"
+                    loading="lazy"
                   />
                 </motion.div>
                 
