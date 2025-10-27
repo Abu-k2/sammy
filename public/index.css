@@ -38,8 +38,55 @@ html {
   }
 }
 
+/* Hero section mobile enhancements */
+@media (max-width: 640px) {
+  #home {
+    min-height: 90vh;
+  }
+  
+  #home h1 {
+    font-size: 1.875rem; /* 30px */
+    line-height: 1.2;
+  }
+  
+  #home p {
+    font-size: 1rem; /* 16px */
+    line-height: 1.4;
+  }
+  
+  #home .max-w-3xl {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
 /* Fix for WhatsApp icon positioning */
 .fixed.bottom-5.right-5 {
   bottom: 1.25rem;
   right: 1.25rem;
+}
+
+/* Ensure proper button sizing on mobile */
+@media (max-width: 480px) {
+  #home a {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 0.875rem;
+  }
+}
+
+/* WhatsApp Float Button Enhancements */
+@keyframes ping {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  75%, 100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+.animate-ping {
+  animation: ping 1.5s cubic-bezier(0, 0, 0.2, 1) infinite;
 }

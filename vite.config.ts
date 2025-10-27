@@ -35,6 +35,12 @@ export default defineConfig(({ mode }) => {
           }
         },
         chunkSizeWarningLimit: 1000
+      },
+      // Image optimization settings
+      assetsInclude: ['**/*.jpg', '**/*.jpeg', '**/*.png', '**/*.gif', '**/*.webp'],
+      // Optimize images during build
+      optimizeDeps: {
+        include: ['sharp']
       }
     };
 });

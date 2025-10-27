@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-2 text-sm">
               <li className="text-gray-400">Nairobi, Kenya</li>
               <li>
-                <a href="mailto:info@sammybd.com" className="text-gray-400 hover:text-white transition-colors">info@sammybd.com</a>
+                <a href="mailto:Samsonodhiambo2020@gmail.com" className="text-gray-400 hover:text-white transition-colors">Samsonodhiambo2020@gmail.com</a>
               </li>
               <li>
                 <a href="tel:+254758070144" className="text-gray-400 hover:text-white transition-colors">+254 758 070144</a>

@@ -30,6 +30,14 @@ A modern, responsive portfolio website for Sammy, a Civil Engineer, showcasing s
 3. Run the app:
    `npm run dev`
 
+## Image Optimization
+
+This project includes an image optimization script that automatically compresses and resizes large images to improve loading performance:
+
+- Run `npm run optimize` to optimize images manually
+- The optimization runs automatically during the build process
+- Check optimization results with `npm run check-sizes`
+
 ## Deployment
 
 Build the production version:

@@ -21,6 +21,55 @@ const imagesToOptimize = [
     dest: 'public/images/hero2-optimized.jpg',
     width: 1920,
     quality: 80
+  },
+  // Additional images that need optimization
+  { 
+    src: 'public/images/hero1.jpg', 
+    dest: 'public/images/hero1-optimized.jpg',
+    width: 1920,
+    quality: 80
+  },
+  { 
+    src: 'public/images/OBANGE.jpg', 
+    dest: 'public/images/OBANGE-optimized.jpg',
+    width: 1200,
+    quality: 85
+  },
+  { 
+    src: 'public/images/lakeside.jpg', 
+    dest: 'public/images/lakeside-optimized.jpg',
+    width: 1200,
+    quality: 85
+  },
+  { 
+    src: 'public/images/city.jpg', 
+    dest: 'public/images/city-optimized.jpg',
+    width: 1200,
+    quality: 85
+  },
+  { 
+    src: 'public/images/renovating.jpg', 
+    dest: 'public/images/renovating-optimized.jpg',
+    width: 1200,
+    quality: 85
+  },
+  { 
+    src: 'public/images/about.jpg', 
+    dest: 'public/images/about-optimized.jpg',
+    width: 800,
+    quality: 80
+  },
+  { 
+    src: 'public/images/IMG-20251024-WA0018.jpg', 
+    dest: 'public/images/IMG-20251024-WA0018-optimized.jpg',
+    width: 800,
+    quality: 80
+  },
+  { 
+    src: 'public/images/unsplash_a8K-puaPyVk.jpg', 
+    dest: 'public/images/unsplash_a8K-puaPyVk-optimized.jpg',
+    width: 1200,
+    quality: 85
   }
 ];
 

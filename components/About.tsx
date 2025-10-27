@@ -35,7 +35,7 @@ const About: React.FC = () => {
           >
             <div className="absolute -top-4 -left-4 w-full h-full border-8 border-green-200 rounded-lg transform -rotate-3 z-0"></div>
             <motion.img 
-              src="/images/about.jpg" 
+              src="/images/about-optimized.jpg" 
               alt="Sammy, the Civil Engineer on a construction site"
               className="relative rounded-lg shadow-2xl w-full max-w-sm h-auto object-cover object-top z-10"
               style={{aspectRatio: '4 / 5'}}

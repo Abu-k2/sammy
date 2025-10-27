@@ -94,7 +94,7 @@ const Contact: React.FC = () => {
                                 <MailIcon />
                                 <div>
                                     <h4 className="font-semibold text-gray-700">Email</h4>
-                                    <a href="mailto:info@sammybd.com" className="text-gray-600 hover:text-green-700 transition-colors">info@sammybd.com</a>
+                                    <a href="mailto:Samsonodhiambo2020@gmail.com" className="text-gray-600 hover:text-green-700 transition-colors">Samsonodhiambo2020@gmail.com</a>
                                 </div>
                             </motion.div>
                              <motion.div 

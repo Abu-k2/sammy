@@ -8,7 +8,7 @@ export const PROJECTS: Project[] = [
     year: "2 years ago",
     workDone: "Building Construction and Structural Design",
     category: ProjectCategory.RESIDENTIAL,
-    imageUrl: "/images/OBANGE.jpg",
+    imageUrl: "/images/OBANGE-optimized.jpg",
   },
   {
     name: "Modern Villa",
@@ -32,7 +32,7 @@ export const PROJECTS: Project[] = [
     year: "Ongoing",
     workDone: "Structural Design and Supervision",
     category: ProjectCategory.RESIDENTIAL,
-    imageUrl: "/images/unsplash_a8K-puaPyVk.jpg",
+    imageUrl: "/images/unsplash_a8K-puaPyVk-optimized.jpg",
   },
   // Commercial (2)
   {
@@ -41,7 +41,7 @@ export const PROJECTS: Project[] = [
     year: "1 year ago",
     workDone: "Structural Design & Construction Supervision",
     category: ProjectCategory.COMMERCIAL,
-    imageUrl: "/images/lakeside.jpg",
+    imageUrl: "/images/lakeside-optimized.jpg",
   },
   {
     name: "City Office Block",
@@ -49,7 +49,7 @@ export const PROJECTS: Project[] = [
     year: "2 years ago",
     workDone: "Structural Design",
     category: ProjectCategory.COMMERCIAL,
-    imageUrl: "/images/city.jpg",
+    imageUrl: "/images/city-optimized.jpg",
   },
   // Renovating (1)
   {
@@ -58,19 +58,19 @@ export const PROJECTS: Project[] = [
     year: "1.5 years ago",
     workDone: "Structural Renovation & Modernization",
     category: ProjectCategory.RENOVATING,
-    imageUrl: "/images/renovating.jpg",
+    imageUrl: "/images/renovating-optimized.jpg",
   },
 ];
 
 export const GALLERY_IMAGES = [
-  "/images/hero1.jpg",
+  "/images/hero1-optimized.jpg",
   "/images/hero2-optimized.jpg",
   "/images/hero3-optimized.jpg",
-  "/images/OBANGE.jpg",
+  "/images/OBANGE-optimized.jpg",
   "/images/morden.jpeg",
   "/images/riverside-home.jpeg",
-  "/images/lakeside.jpg",
-  "/images/city.jpg",
+  "/images/lakeside-optimized.jpg",
+  "/images/city-optimized.jpg",
 ];
 
 export const SERVICES_LIST = [
@@ -105,7 +105,7 @@ export const TESTIMONIALS = [
     quote: "Sammy's attention to detail and commitment to quality were exceptional. He transformed our vision into a reality, and we couldn't be happier with our new commercial space.",
     name: "Jane Doe",
     title: "Business Owner, Lakeside Mall",
-    avatarUrl: "/images/about.jpg",
+    avatarUrl: "/images/about-optimized.jpg",
   },
   {
     quote: "Working with Sammy was a seamless experience. His structural designs are not only safe and robust but also innovative. He's a true professional who delivers on his promises.",
@@ -117,6 +117,6 @@ export const TESTIMONIALS = [
     quote: "From the initial consultation to the final inspection, Sammy provided invaluable guidance. His supervision ensured our community project was completed on time and to the highest standards.",
     name: "Alice Johnson",
     title: "Project Manager, Community Library",
-    avatarUrl: "/images/IMG-20251024-WA0018.jpg",
+    avatarUrl: "/images/IMG-20251024-WA0018-optimized.jpg",
   }
 ];
